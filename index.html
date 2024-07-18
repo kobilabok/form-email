@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Kobi Labok" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Create User Form</h1>
+    <hr />
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="email" size="15" required />
+      </div>
+      <div>
+        <label for="fname">Username:</label>
+        <input type="text" id="fname" placeholder="username" size="30" maxlength="12" required/>
+      </div>
+      <div>
+        <label for="userPassword">Password:</label>
+        <input type="password" id="userPassword" placeholder="password" 
+          size="30"
+          maxlength="8"
+          required
+          />
+      </div>
+      <div>
+        <label for="userbio">Bio:</label></br>
+        <textarea placeholder="give a brief description of this user" cols="25" rows="2"></textarea>
+      </div>
+      <div>
+      <fieldset>
+        <strong>Select your favorite superhero</strong>
+        <legend>Interests</legend>
+        <input
+          type="radio"
+          id="superman"
+          name="fav_superhero"
+          value="superman"
+        />
+        <label for="superman">Superman</label>
+        <input type="radio" id="batman" name="fav_superhero" value="batman" />
+        <label for="batman">Batman</label>
+        <input
+          type="radio"
+          id="wonderwoman"
+          name="fav_superhero"
+          value="wonderwoman"
+          checked
+        />
+        <label for="wonderwoman">Wonder Woman</label>
+        <input type="radio" id="flash" name="fav_superhero" value="flash" />
+        <label for="flash">Flash</label>
+        <input type="radio" id="thor" name="fav_superhero" value="thor" />
+        <label for="thor">Thor</label>
+        <input type="radio" id="hulk" name="fav_superhero" value="hulk" />
+        <label for="hulk">Hulk</label><br />
+        <strong>Select your favorite video game</strong>
+        <input
+          type="checkbox"
+          id="fifa"
+          name="fav_videogame"
+          value="fifa"
+          checked
+        />
+        <label for="fifa">Fifa</label>
+        <input type="checkbox" id="nhl" name="fav_videogame" value="nhl" />
+        <label for="nhl">NHL</label>
+        <input
+          type="checkbox"
+          id="residentevil"
+          name="fav_videogame"
+          value="residentevil"
+        />
+        <label for="residentevil">Resident Evil</label>
+        <input
+          type="checkbox"
+          id="uncharted"
+          name="fav_videogame"
+          value="uncharted"
+          checked
+        />
+        <label for="uncharted">Uncharted</label>
+        <input type="hidden" id="userid" name="fav_videogame" value="2300" />
+      </fieldset>
+    </div></br>
+      <div>
+        <button type="submit"><a href="create-user.html">Create User!</button>
+      </div>
+    </form>
+  </body>
+
+
+  <!--<body>
+    <h1>This is an Email form!</h1>
+    <form action="" method="post">
+      <fieldset>
+        <legend>Contact</legend>
+        <div>
+          <label for="name">Name:</label>
+          <input type="name" id="name" placeholder="name" size="15" required />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="email" size="15" required />
+        </div>
+        <div>
+          <label for="messagebox">Message:</label>
+          <textarea id="messagebox" name="story" rows="5" cols="33">
+        </textarea>
+        <div>
+        <button type="send" style="border-radius: 5px;" >Send your message!</button>
+    </fieldset></br>
+  </form>
+  </body>-->
+</html>
+<!--       _
+       .__(.)< (MEOW)
+        \___)   
+ ~~~~~~~~~~~~~~~~~~-->
+<!--
